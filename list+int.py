@@ -1,3 +1,6 @@
+#дынная функция принимает список и число (или цыфру) и находит две цыфры (если такие есть), которые в сумме получают то самое число
+
+
 def two_num(lst: list, num: int):
     if num == 1: #we do this check becouse anyway there will not be any numbers to get 1 (it is already ==1)
        return "Enter another number"
