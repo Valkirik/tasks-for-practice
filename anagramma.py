@@ -5,8 +5,9 @@
 
 import datetime
 from soupsieve.util import lower
+import unittest
 
-def processing_time(fun):
+"""def processing_time(fun):
     def wrapper(*args, **kwargs):
         start = datetime.datetime.now()
         fun(*args, **kwargs)
@@ -14,10 +15,10 @@ def processing_time(fun):
         res = finish - start
 
         return res
-    return wrapper
+    return wrapper"""
 
 #"aaaccbdddde" -> "a3c2b1d4e1"
-@processing_time
+"""@processing_time"""
 def compresed_string(string: str) -> str:
 
     list_letter = list(string)
@@ -34,7 +35,11 @@ def compresed_string(string: str) -> str:
 
     return "".join(result)
 
-print(compresed_string("AaabBccdddee"))
+"""print(compresed_string("AaabBccdddee"))"""
+
+
+
+
 
 
 

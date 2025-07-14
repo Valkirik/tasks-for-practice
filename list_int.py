@@ -16,4 +16,4 @@ def two_num(lst: list, num: int):
                 else:
                     return s
 
-print(two_num([1, 2, 3, 4, 5], 10))
+"""print(two_num([1, 2, 3, 4, 5], 9))"""

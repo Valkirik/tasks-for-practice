@@ -4,6 +4,8 @@
 # n = 100: (1**2 + 0**2 + 0**2 = 1)
 # True
 
+import unittest
+
 def num_num(num: int) -> bool | None:
     l_1 = []
     l_set = set(l_1)
@@ -26,3 +28,8 @@ def num_num(num: int) -> bool | None:
 
 print(num_num(2))
 #with 2 it is False
+
+
+
+
+
